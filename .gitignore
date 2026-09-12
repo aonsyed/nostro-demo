@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+test-results/
+tmp/
+output/
+# Historical local audit material is not part of the published source.
+docs/audit/
+docs/tasks/2026-09-12-local-build/
+docs/tasks/2026-09-12-nostro-reset-audit/
+docs/tasks/2026-09-12-pages/
+*.tsbuildinfo
+.env
+.env.*

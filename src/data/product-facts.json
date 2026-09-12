@@ -1,0 +1,60 @@
+{
+  "reviewedAt": "2026-09-12",
+  "demo": {
+    "ratePKR": 278.5,
+    "minimumPKMinor": 100,
+    "minimumUSMinor": 5000,
+    "feeMinor": 0,
+    "quoteMinutes": 5
+  },
+  "availability": {
+    "cards": "available-in-demo",
+    "paymentLinks": "activation-required",
+    "GBP": "planned",
+    "USD": "available"
+  },
+  "facts": [
+    {
+      "id": "usd-account",
+      "value": "Receive, hold and send US dollars",
+      "source": "https://www.nostro.pk/feature/receive",
+      "status": "observed-public",
+      "scope": "USD product description"
+    },
+    {
+      "id": "bank-partner",
+      "value": "Citibank shown in original signed-in account",
+      "source": "https://app.nostro.pk/app/account",
+      "status": "observed-app",
+      "scope": "Inspected account; not a legal verification"
+    },
+    {
+      "id": "fees",
+      "value": "Public schedules conflict; demo uses illustrative zero fees",
+      "source": "https://www.nostro.pk/faq",
+      "status": "owner-review",
+      "scope": "Rail, conversion and payer fees"
+    },
+    {
+      "id": "minimums",
+      "value": "Pakistan minimum conflicts between original calculator and send flow; demo uses USD 1 for Pakistan and USD 50 for US",
+      "source": "https://app.nostro.pk/app/exchange-rate",
+      "status": "demo-assumption",
+      "scope": "Demonstration only"
+    },
+    {
+      "id": "cards",
+      "value": "Assumed launched in this local demo, as explicitly requested by the user. Original audited account was coming soon.",
+      "source": "https://app.nostro.pk/app/cards-coming-soon",
+      "status": "user-authorised-demo-assumption",
+      "scope": "Active card, controls and card transactions in fictional local state only"
+    },
+    {
+      "id": "protection",
+      "value": "Protection depends on eligibility and applicable partner terms",
+      "source": "https://www.nostro.pk/how-your-money-is-protected",
+      "status": "owner-review",
+      "scope": "No blanket insurance or guarantee claim"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "asOf": "2026-09-12T12:00:00.000Z",
+  "openingMinor": 250000,
+  "profile": {
+    "name": "Areeba Shah",
+    "email": "areeba@atelier-nine.example",
+    "company": "Atelier Nine",
+    "country": "Pakistan"
+  },
+  "account": {
+    "id": "demo-usd",
+    "name": "Personal USD account",
+    "currency": "USD",
+    "bank": "Citibank",
+    "number": "DEMO-1084",
+    "routingACH": "DEMO-ACH-001",
+    "routingWire": "DEMO-WIRE-001",
+    "swift": "DEMO-SWIFT",
+    "address": "Fictional banking instructions. Not valid for payments."
+  },
+  "recipients": [
+    {
+      "id": "recipient-samina",
+      "name": "Samina Shah",
+      "type": "Personal",
+      "country": "PK",
+      "bank": "Meezan Bank",
+      "account": "DEMO-PK-4821",
+      "email": "samina@family.example",
+      "phone": "0300 0000000"
+    },
+    {
+      "id": "recipient-borough",
+      "name": "Borough Design LLC",
+      "type": "Business",
+      "country": "US",
+      "bank": "Chase",
+      "account": "DEMO-US-2098",
+      "email": "accounts@borough.example",
+      "phone": "202 555 0100"
+    },
+    {
+      "id": "recipient-hammad",
+      "name": "Hammad Ali",
+      "type": "Personal",
+      "country": "PK",
+      "bank": "HBL",
+      "account": "DEMO-PK-6620",
+      "email": "hammad@studio.example",
+      "phone": "0300 0000001"
+    },
+    {
+      "id": "recipient-signal",
+      "name": "Signal House",
+      "type": "Business",
+      "country": "US",
+      "bank": "Bank of America",
+      "account": "DEMO-US-9124",
+      "email": "finance@signalhouse.example",
+      "phone": "202 555 0101"
+    }
+  ],
+  "events": [
+    {
+      "id": "demo-t01",
+      "direction": "in",
+      "name": "Upwork",
+      "bank": "Marketplace payout",
+      "account": "DEMO-PAYOUT-01",
+      "rail": "ACH",
+      "amountMinor": 320000,
+      "status": "completed",
+      "createdAt": "2026-09-02T09:30:00Z",
+      "purpose": "August design projects"
+    },
+    {
+      "id": "demo-t02",
+      "direction": "out",
+      "recipientId": "recipient-samina",
+      "rail": "Bank transfer",
+      "amountMinor": 95000,
+      "status": "completed",
+      "createdAt": "2026-09-03T11:00:00Z",
+      "purpose": "Family support"
+    },
+    {
+      "id": "demo-t03",
+      "direction": "out",
+      "recipientId": "recipient-borough",
+      "rail": "ACH",
+      "amountMinor": 24000,
+      "status": "completed",
+      "createdAt": "2026-09-04T08:20:00Z",
+      "purpose": "Illustration collaboration"
+    },
+    {
+      "id": "demo-t04",
+      "direction": "in",
+      "name": "Cedar & Co.",
+      "bank": "Client bank transfer",
+      "account": "DEMO-PAYOUT-02",
+      "rail": "Domestic wire",
+      "amountMinor": 410000,
+      "status": "completed",
+      "createdAt": "2026-09-05T14:00:00Z",
+      "purpose": "Website design milestone"
+    },
+    {
+      "id": "demo-t05",
+      "direction": "out",
+      "recipientId": "recipient-hammad",
+      "rail": "Bank transfer",
+      "amountMinor": 125000,
+      "status": "completed",
+      "createdAt": "2026-09-07T10:15:00Z",
+      "purpose": "Production support"
+    },
+    {
+      "id": "demo-t06",
+      "direction": "in",
+      "name": "Deel",
+      "bank": "Payroll payout",
+      "account": "DEMO-PAYOUT-03",
+      "rail": "ACH",
+      "amountMinor": 275000,
+      "status": "completed",
+      "createdAt": "2026-09-08T12:40:00Z",
+      "purpose": "September retainer"
+    },
+    {
+      "id": "demo-t07",
+      "direction": "out",
+      "recipientId": "recipient-signal",
+      "rail": "ACH",
+      "amountMinor": 87500,
+      "status": "completed",
+      "createdAt": "2026-09-09T09:00:00Z",
+      "purpose": "Software and studio services"
+    },
+    {
+      "id": "demo-t08",
+      "direction": "in",
+      "name": "Fieldwork Studio",
+      "bank": "Client bank transfer",
+      "account": "DEMO-PAYOUT-04",
+      "rail": "ACH",
+      "amountMinor": 320000,
+      "status": "completed",
+      "createdAt": "2026-09-11T19:30:00Z",
+      "purpose": "Brand identity delivery"
+    },
+    {
+      "id": "demo-t09",
+      "direction": "out",
+      "recipientId": "recipient-samina",
+      "rail": "Bank transfer",
+      "amountMinor": 85000,
+      "status": "completed",
+      "createdAt": "2026-09-12T07:15:00Z",
+      "purpose": "Family support"
+    },
+    {
+      "id": "demo-t10",
+      "direction": "out",
+      "recipientId": "recipient-borough",
+      "rail": "ACH",
+      "amountMinor": 12500,
+      "status": "processing",
+      "createdAt": "2026-09-12T08:30:00Z",
+      "purpose": "September collaboration"
+    },
+    {
+      "id": "demo-t11",
+      "direction": "in",
+      "name": "Upwork",
+      "bank": "Marketplace payout",
+      "account": "DEMO-PAYOUT-05",
+      "rail": "ACH",
+      "amountMinor": 135000,
+      "status": "pending",
+      "createdAt": "2026-09-12T09:30:00Z",
+      "purpose": "Project completion payout"
+    },
+    {
+      "id": "demo-t12",
+      "direction": "out",
+      "recipientId": "recipient-hammad",
+      "rail": "Bank transfer",
+      "amountMinor": 45000,
+      "status": "failed",
+      "createdAt": "2026-09-10T11:30:00Z",
+      "purpose": "Production expenses"
+    },
+    {
+      "id": "demo-t13",
+      "direction": "out",
+      "recipientId": "recipient-signal",
+      "rail": "ACH",
+      "amountMinor": 60000,
+      "status": "returned",
+      "createdAt": "2026-09-06T13:00:00Z",
+      "purpose": "Returned vendor payment"
+    }
+  ],
+  "links": [
+    {
+      "id": "demo-link-brand",
+      "title": "Brand identity project",
+      "amountMinor": 150000,
+      "expiresAt": "2026-12-31",
+      "recurrence": "One time",
+      "status": "pending",
+      "createdAt": "2026-09-12T08:00:00Z"
+    },
+    {
+      "id": "demo-link-retainer",
+      "title": "Monthly design retainer",
+      "amountMinor": 275000,
+      "expiresAt": "2026-12-31",
+      "recurrence": "Monthly",
+      "status": "pending",
+      "createdAt": "2026-09-10T08:00:00Z"
+    },
+    {
+      "id": "demo-link-old",
+      "title": "Website discovery",
+      "amountMinor": 45000,
+      "expiresAt": "2026-08-31",
+      "recurrence": "One time",
+      "status": "expired",
+      "createdAt": "2026-08-01T08:00:00Z"
+    }
+  ],
+  "cases": [
+    {
+      "id": "DEMO-CASE-104",
+      "category": "Payments",
+      "subject": "Returned vendor payment",
+      "description": "Please help me understand the returned payment and the next step.",
+      "transferId": "demo-t13",
+      "status": "Open",
+      "createdAt": "2026-09-10T10:00:00Z",
+      "messages": [
+        {
+          "at": "2026-09-10T10:00:00Z",
+          "author": "You",
+          "text": "Please help me understand the returned payment and the next step."
+        },
+        {
+          "at": "2026-09-10T10:05:00Z",
+          "author": "Nostro Support",
+          "text": "The receiving bank returned this payment. The original debit has been reversed. Check the bank details with your recipient before making a new transfer."
+        }
+      ]
+    }
+  ]
+}

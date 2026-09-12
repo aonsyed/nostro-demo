@@ -1,0 +1,52 @@
+[
+  {
+    "id": "demo-card-figma",
+    "name": "Figma",
+    "category": "Software",
+    "location": "San Francisco, US",
+    "amountMinor": 1500,
+    "status": "completed",
+    "createdAt": "2026-09-12T08:20:00Z",
+    "cardPresent": false
+  },
+  {
+    "id": "demo-card-cafe",
+    "name": "Northside Coffee",
+    "category": "Food & drink",
+    "location": "New York, US",
+    "amountMinor": 1249,
+    "status": "processing",
+    "createdAt": "2026-09-12T10:30:00Z",
+    "cardPresent": true
+  },
+  {
+    "id": "demo-card-notion",
+    "name": "Notion",
+    "category": "Software",
+    "location": "San Francisco, US",
+    "amountMinor": 1200,
+    "status": "completed",
+    "createdAt": "2026-09-11T07:00:00Z",
+    "cardPresent": false
+  },
+  {
+    "id": "demo-card-stay",
+    "name": "Parkside Hotel",
+    "category": "Travel",
+    "location": "Boston, US",
+    "amountMinor": 18500,
+    "status": "returned",
+    "createdAt": "2026-09-10T08:00:00Z",
+    "cardPresent": false
+  },
+  {
+    "id": "demo-card-declined",
+    "name": "Studio Supply",
+    "category": "Shopping",
+    "location": "Austin, US",
+    "amountMinor": 8900,
+    "status": "failed",
+    "createdAt": "2026-09-09T09:00:00Z",
+    "cardPresent": false
+  }
+]
